@@ -19,7 +19,7 @@ p{
 	border-radius: 5px;
 	padding: 10px 10px 10px 10px;
 	text-align: justify;
-	overflow: hidden;
+	overflow: auto;
 }
 .cap{
 	font-family: Arial Black;
@@ -31,6 +31,7 @@ p{
 	background-color: #C31919;
 	border: 1px solid black;
 	text-align: center;
+	overflow: hidden;
 }
 .row{
 	width="100%"
