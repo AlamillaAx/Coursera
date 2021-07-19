@@ -19,7 +19,7 @@ p{
 	border-radius: 5px;
 	padding: 10px 10px 10px 10px;
 	text-align: justify;
-	overflow: none;
+	overflow: hidden;
 }
 .cap{
 	font-family: Arial Black;
