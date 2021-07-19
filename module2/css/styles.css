@@ -15,9 +15,8 @@ p{
 	margin-left: auto;
 	font-family: Arial;
 	color: white;
-	border: 2px solid black;
+	border: 1px solid black;
 	border-radius: 5px;
-	overflow: scroll;
 	padding: 10px 10px 10px 10px;
 	text-align: justify;
 }
@@ -29,7 +28,7 @@ p{
 	top: 0;
 	right: 5%;
 	background-color: #C31919;
-	border: 2px solid black;
+	border: 1px solid black;
 	text-align: center;
 }
 .row{
