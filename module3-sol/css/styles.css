@@ -1,9 +1,8 @@
 body {
 	font-size: 16px;
-	color: white;
+	color: black;
 	background-color: #4FD190;
 	font-family: 'Merienda', cursive;
-	padding-top: 100px;
 }
 /** Header**/
 #header-nav{
@@ -25,6 +24,7 @@ body {
 	text-shadow: 1px 1px 1px #222;
 	margin-top: 0;
 	margin-bottom: 0;
+	margin-left: 20px;
 	line-height: .75;
 }
 
@@ -54,8 +54,9 @@ body {
 /**Fin barra de navegación**/
 /**Fin Header**/
 /**Inicio Body**/
+
 #subtitle{
-	font-size: 1.5em;
+	font-size: 2em;
 	color: White;
 }
 .row{
@@ -67,85 +68,73 @@ body {
 .row div{
 	color: white;
 	background-color: #FFB762;
-	opacity: 80%;
+	opacity: 95%;
 }
 .row div p{
 	text-align: justify;
+	color: black;
+}
+.row div h3{
+	text-align: center;
+
 }
 /**Fin Body**/
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  
+  .navbar-brand h1{
+  	font-size: 2.5em;
+  }
+  #header-nav{
+  	height: 80px;
+  }
+#subtitle{
+	font-size: 2.5em;
+	color: White;
+}
 }
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
+	#header-nav{
+  	height: 80px;
+  }
   
 }
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  
+  .navbar-brand h1{
+  	font-size: 2.2em;
+  }
+  #header-nav{
+  	height: 80px;
+  }
+  #nav-list{
+	margin-top: 10px;
+}
  }
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
   .navbar-brand {
     padding-top: 10px;
-    height: 80px;
+    height: 50px;
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    font-size: 5vm; /* 1vw = 1% of viewport width */
   }
-  .navbar-brand p { /* Kosher cert */
-    font-size: .6em;
-    margin-top: 12px;
-  }
-  .navbar-brand p img { /* Star-K */
-    height: 20px;
-  }
-
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
   }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
-    font-size: 1em;
-    margin-right: 5px;
-  }
-
-  #call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
-  }
-  #xs-deliver {
-    margin-top: 5px;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-  }
+}
   /* End Header */
 
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+/********** Super extra small devices Only**********/
 @media (max-width: 479px) {
   /* Header */
   .navbar-brand h1 { /* Restaurant name */
-    padding-top: 5px;
-    font-size: 6vw;
-  }
+    padding-top: 10px;
+    font-size: 8vw;
+      }
   /* End Header */
-  
-
-  .col-xxs-12 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
-    width: 100%;
-  }
 }
