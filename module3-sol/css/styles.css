@@ -64,6 +64,7 @@ body {
 	margin-right: auto;
 }
 .row div{
+	color: white;
 	background-color: #FFB762;
 	opacity: 70%;
 }
