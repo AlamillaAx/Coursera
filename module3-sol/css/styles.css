@@ -36,11 +36,11 @@ body {
 	margin-top: 10px;
 }
 #nav-list a{
-	color: #557c3e;
+	color: #FFB762;
 	text-align: center;
 }
 #nav-list a:hover{
-	background: #557c3e;
+	background: #FFB762;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
 	border:  1px solid #61122f;
