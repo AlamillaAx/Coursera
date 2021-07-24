@@ -3,6 +3,7 @@ body {
 	color: white;
 	background-color: #4FD190;
 	font-family: 'Merienda', cursive;
+	padding-top: 120px;
 }
 /** Header**/
 #header-nav{
@@ -68,6 +69,9 @@ body {
 	background-color: #FFB762;
 	opacity: 80%;
 }
+.row div p{
+	text-align: justify;
+}
 /**Fin Body**/
 
 /********** Large devices only **********/
@@ -126,41 +130,6 @@ body {
   }
   /* End Header */
 
-  /* Footer */
-  .panel-footer section {
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  .panel-footer section:nth-child(3) {
-    margin-bottom: 0; /* margin already exists on the whole row */
-  }
-  .panel-footer section hr {
-    width: 50%;
-  }
-  /* End Footer */
-
-  /* Home Page */
-  .container .jumbotron {
-    margin-top: 30px;
-    padding: 0;
-  }
-  #menu-tile, #specials-tile {
-    width: 360px;
-    margin: 0 auto 15px;
-  }
-
-  .menu-item-photo {
-    margin-right: auto;
-  }
-  .menu-item-tile .menu-item-price {
-    text-align: center;
-  }
-  .menu-item-description {
-    text-align: center;;
-  }
-}
-
-
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
@@ -170,11 +139,6 @@ body {
   }
   /* End Header */
   
-  /* Home page */
-  #menu-tile, #specials-tile {
-    width: 280px;
-    margin: 0 auto 15px;
-  }
 
   .col-xxs-12 {
     position: relative;
