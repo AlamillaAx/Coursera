@@ -126,6 +126,9 @@ body {
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
   }
+  .row{
+    	width: 80%;
+	}  
 }
   /* End Header */
 
@@ -136,5 +139,8 @@ body {
     padding-top: 10px;
     font-size: 8vw;
       }
+    .row{
+    	width: 80%;
+	}  
   /* End Header */
 }
